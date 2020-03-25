@@ -17,7 +17,7 @@ def printboard(printingboard):
 
     # Useful mapping of the characters.  Some redundancy in here because I kept changing my mind about how to do this and might change it again.  The unicode chess pieces aren't great,
     # so I'm currently mapping the white pieces to the black pieces then recoloring them to white.
-    unicode_map = {'0': 0x3000, 'k':0x265A, 'q':0x265B, 'r':0x265C, 'b':0x265D, 'n':0x265E, 'p':0x265F, 'K':0x265A, 'Q':0x265B, 'R':0x265C, 'B':0x265D, 'N':0x265E, 'P':0x265F}
+    unicode_map = {'0': 0x0020, 'k':0x265A, 'q':0x265B, 'r':0x265C, 'b':0x265D, 'n':0x265E, 'p':0x265F, 'K':0x265A, 'Q':0x265B, 'R':0x265C, 'B':0x265D, 'N':0x265E, 'P':0x265F}
 
     # The colors for the squares. A lightish green for white and a brown for black
     square_color_map = {True: (0,190,100), False:(168,98,28)}
@@ -40,7 +40,7 @@ def printboard(printingboard):
             if character != '0'and character.islower():
                 color = False
             # I'm pretty proud of the * to unpack a tuple into a list of arguments.  This prints the actual squares of the board
-            print (bg(*square_color_map[parity]) + fg(*piece_color_map[color]) + chr(unicode_map[character]) + bg.rs + fg.rs, end = "")
+            print (bg(*square_color_map[parity]) + fg(*piece_color_map[color]) + "{:{width}}".format(chr(unicode_map[character]), width = 2) + bg.rs + fg.rs, end = "")
 
             parity = not parity
 

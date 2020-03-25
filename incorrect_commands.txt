@@ -21,3 +21,5 @@ Incorrect Input Passed to request_move. Input was: 0-0
 Incorrect Input Passed to request_move. Input was: move
 Incorrect Input Passed to request_move. Input was: quit
 Incorrect Input Passed to request_move. Input was: .quit
+Incorrect Input Passed to request_move. Input was: :q
+Incorrect Input Passed to recieve_player. Input was: chaoswar
