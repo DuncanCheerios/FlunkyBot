@@ -1,0 +1,27 @@
+
+******************************---------------***************************************************************
+******************************    MENUHELP   ***************************************************************
+******************************---------------***************************************************************
+
+Commands:
+ - 'play' will begin a new game
+ - 'middle' allows you to pickup a game in the middle of a game by providing a FEN
+ - 'help'  brings up this screen
+ - 'info' brings up information about the FlunkyBOT ChessN.E.M.E.Sys Engine
+ - 'chaoswar' begins a game between two instances of ChaosBOT (the bot that makes random moves) - Note that the game will move extremely quickly!
+ - 'scores' will print the scores from the current session.
+
+ Useful Inormation:
+  - ChaosBOT is a chess engine that makes entirely random moves.
+
+  - FlunkBOT is a chess engine that makes pretty dumb moves
+
+  - FEN (Forsyth-Edwards Notation) is a standard system for documenting the game state of a given chessboard.  It records 6 items:
+    - The current location of pieces on the board
+    - The color of the player that must move next ('b' or 'w')
+    - The current castling rights for White and Black
+    - The En-Passantable square on the board, if any
+    - The number of half-moves since the last capture or pawn move
+    - The number of whole moves since the beginning of the game
+
+************************************************************************************************************

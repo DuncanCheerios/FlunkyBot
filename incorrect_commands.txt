@@ -1,0 +1,23 @@
+List of incorrect command inputs:
+
+Purpose of this is to have a record of what commands users are trying and failing to input into flunkybot so that I can add/edit the flunkybot logic to be more user friendly. Last cleared on 12/3/18
+Incorrect Input Passed to mainmenu. Input was: morpheusisfighitngneo
+Incorrect Input Passed to mainmenu. Input was:  morpheusisfightingneo
+Incorrect Input Passed to mainmenu. Input was: human
+Incorrect Input Passed to mainmenu. Input was: human
+Incorrect Input Passed to request_move. Input was: Mg1-f3
+Incorrect Input Passed to request_move. Input was: Nb8-f6
+Incorrect Input Passed to request_move. Input was: nb8-f6
+Incorrect Input Passed to request_move. Input was: Bc8-h3
+Incorrect Input Passed to request_move. Input was: pc8-h3
+Incorrect Input Passed to request_move. Input was: quit
+Incorrect Input Passed to request_move. Input was: quit
+Incorrect Input Passed to request_move. Input was: Pg1-f3
+Incorrect Input Passed to request_move. Input was: Pd3-d4
+Incorrect Input Passed to request_move. Input was: Nc3-d4
+Incorrect Input Passed to mainmenu. Input was: 
+Incorrect Input Passed to request_move. Input was: Ph2xf3
+Incorrect Input Passed to request_move. Input was: 0-0
+Incorrect Input Passed to request_move. Input was: move
+Incorrect Input Passed to request_move. Input was: quit
+Incorrect Input Passed to request_move. Input was: .quit

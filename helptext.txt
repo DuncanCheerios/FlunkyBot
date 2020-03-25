@@ -1,0 +1,43 @@
+
+******************************---------------***************************************************************
+******************************      HELP     ***************************************************************
+******************************---------------***************************************************************
+
+---  Moving ---
+
+    To enter your move you must type the appropriate string.
+
+    Most moves follow the following format:
+
+        1: Letter of the piece being moved.  Uppercase for white, lowercase for black. k=king, q=queen, r=rook, b=bishop, n=knight, p=pawn
+
+        2: Letter corresponding to the starting column of the piece (A-H)
+
+        3: Number corresponding to the starting row of the piece.
+
+        4: '-' indicates a move.  'x' indicates a capture.
+
+        5: Letter corresponding to the ending column of the piece (A-H)
+
+        6: Number corresponding to the ending row of the piece.
+
+        7: If the move results in a pawn promotion, provide the single character indicated the desired piece to promote to (Q,R,N, or B)
+
+    For example White moving a knight from f3 to g5 would be 'Nf3-g5'.  Black capturing a rook on g4 with a queen on c4 would be qc4xg4.  Black enpassanting from b4 to c3 would be pb4xc3.  A white pawn on A7 capturing on B8 to promote to a queen would be PA7xB8Q
+
+    For castling, input 'w' or 'b' to indicate your side followed by 0-0 or 0-0-0 for king and queenside castling respectively.  For example w0-0 indicates a kingside castle for white
+
+---  Additional Commands  ---
+
+    Type 'FEN' to recieve a FEN of the current position.
+
+    Type 'moves' to recieve a list of moves from the current position.  This movelist may contain some illegal moves, but it is useful reference for the correct formatting of moves.
+
+    Type 'info' for more information on the flunkybot system
+
+    Type 'menu' to return to the main menu (This abandons the current game!)
+
+************************************************************************************************************
+************************************************************************************************************
+
+
